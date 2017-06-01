@@ -11,7 +11,7 @@ class Parent{
 	}
 }
 
-public class CJS4A2_child extends Parent {
+public class CJS4A1_child extends Parent {
 	
 	public void method1() {
 		System.out.println ("Child's method1()");
@@ -19,7 +19,7 @@ public class CJS4A2_child extends Parent {
 
 		
 	public static void main(String args[]) {
-		Parent p = new CJS4A2_child();
+		Parent p = new CJS4A1_child();
 		p.method2();
 	}
 }
